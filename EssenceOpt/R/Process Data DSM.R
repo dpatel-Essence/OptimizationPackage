@@ -1,4 +1,3 @@
-
 #' Process Data Function for EMEA Daily Sales
 #'
 #' This function process provided raw data
@@ -12,13 +11,10 @@
 #' @examples
 #' process_data_dsm(basedir,pa,date,process=T, attr = 'LC', file ="Data/Raw/DSM_EMEA_Daily Sales Data_working_Q4_2020_to_Q4_2021.csv")
 
-
-
-
 process_data_dsm <- function(basedir,pa,date,process=T, attr = 'LC', file ="Data/Raw/DSM_EMEA_Daily Sales Data_working_Q4_2020_to_Q4_2021.csv"){
   #####Process data if desired
   if(process){
-#    library(dplyr) # for functions
+    library(dplyr) # for functions
     
     ####Read in data file
     dat <- read_csv(paste(basedir,"PAs",pa,date,"Data/Raw/DSM_EMEA_Daily Sales Data_working_Q4_2020_to_Q4_2021.csv",sep="/"))
