@@ -17,7 +17,7 @@ Create_all_results = function(df1 = b_mv,df2 = b,df3 = o) {
   #convert cost to numeric
   df1[,1] = as.numeric(substr(df1[,1],2,nchar(df1[,1])-1)) * 1e6
   df2[,1] = as.numeric(substr(df2[,1],2,nchar(df2[,1])-1)) * 1e6
-  df3[,1] = as.numeric(substr(df3[,1],2,nchar(o[,1])-1)) * 1e6
+  df3[,1] = as.numeric(substr(df3[,1],2,nchar(df3[,1])-1)) * 1e6
   
   names(df1)[1] = 'market_value_cum'
   names(df2)[1] = 'basis_cum'
