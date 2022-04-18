@@ -17,7 +17,7 @@ process_data_dsm <- function(basedir,pa,date,process=T, attr = 'LC', file ="Data
     library(dplyr) # for functions
     
     ####Read in data file
-    dat <- read_csv(paste(basedir,"PAs",pa,date,"Data/Raw/DSM_EMEA_Daily Sales Data_working_Q4_2020_to_Q4_2021.csv",sep="/"))
+    dat <- read_csv(paste(basedir,"PAs",pa,date,file,sep="/"))
     dat[,'Date'] = as.Date(as.character(dat[,'date']), tryFormats = c("%m/%d/%Y"))
     
     #rename columns
