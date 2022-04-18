@@ -4,7 +4,7 @@ Version: 1.0.2
 Authors@R:
     person("Darshan", "Patel", , "darshan.patel@essenceglobal.com", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: This Packages allows a user to install the functions (created by M. Page) on their local machine to be able to run an optimization. This does not include any data, refer to your manager for how to Data
+Description: This Packages allows a user to install the functions (created by M. Page) on their local machine to be able to run an optimization. This does not include any data, refer to your manager for how to get data
 License: `use_mit_license()`
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
