@@ -1,6 +1,6 @@
 Package: EssenceOpt
 Title: Houses all the Optimization Functions
-Version: 1.0.2
+Version: 1.0.1
 Authors@R:
     person("Darshan", "Patel", , "darshan.patel@essenceglobal.com", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
